@@ -237,7 +237,7 @@ std::vector<Ref<FinderPatternInfo>> FinderPatternFinder::find(DecodeHints const&
     }
     // use connected cells algorithm
     /**
-     * todo edit start. https://github.com/opencv/opencv_contrib/issues/2984
+     * todo edit start. https://github.com/opencv/opencv_contrib/issues/2984 加快扫码速度
      */
 //    {
 //        for (size_t i = iSkip - 1; i < maxI; i += iSkip) {

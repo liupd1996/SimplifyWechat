@@ -15,7 +15,7 @@ namespace cv {
 namespace wechat_qrcode {
 BinarizerMgr::BinarizerMgr() : m_iNowRotateIndex(0), m_iNextOnceBinarizer(-1) {
     /**
-     * todo edit start.  https://github.com/opencv/opencv_contrib/issues/2984
+     * todo edit start.  https://github.com/opencv/opencv_contrib/issues/2984.加快扫码速度
      */
 //    m_vecRotateBinarizer.push_back(Hybrid);
     /**
