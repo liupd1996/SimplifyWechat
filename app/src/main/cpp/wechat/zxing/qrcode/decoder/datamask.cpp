@@ -37,6 +37,7 @@ void DataMask::unmaskBitMatrix(BitMatrix& bits, size_t dimension) {
     }
 }
 
+//todo edit start.
 /**
  * 000: mask bits for which (x + y) mod 2 == 0
  */
@@ -116,6 +117,7 @@ public:
         return (((y / 2) + (x / 3)) & 0x1) == 0;
     }
 };
+//todo edit end.
 
 vector<Ref<DataMask> > DataMask::DATA_MASKS = {
     Ref<DataMask>(new DataMask000()), Ref<DataMask>(new DataMask001()),
